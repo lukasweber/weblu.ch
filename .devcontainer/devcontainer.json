@@ -1,0 +1,19 @@
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"features": {},
+	"forwardPorts": [],
+	"postCreateCommand": "npm install",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"svelte.svelte-vscode",
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	},
+	"remoteUser": "node"
+}
