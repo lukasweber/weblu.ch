@@ -30,7 +30,12 @@
 }
 
 @layer base {
+	html,
 	body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
 		background: linear-gradient(135deg, #1e2127 0%, #2f323a 40%, #3a3d47 60%, #2f323a 100%);
 		font-family: 'Inter', sans-serif;
 	}
