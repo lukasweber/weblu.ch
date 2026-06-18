@@ -59,6 +59,13 @@
 						class="text-blue-400 hover:text-blue-300">LinkedIn</a
 					>
 				</div>
+				<a
+					href="/pgp-key.asc"
+					download="lukas-weber-pgp-key.asc"
+					title="Download my PGP public key"
+					class="mt-6 inline-flex items-baseline gap-2 font-mono text-xs break-all opacity-40 transition-opacity hover:opacity-80"
+					><span class="opacity-70">PGP</span>5DCB D9B6 E240 C131</a
+				>
 			</div>
 		</div>
 	</Window>
