@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Window from '$lib/components/Window.svelte';
+	import { base } from '$app/paths';
 
 	let showEmail = false;
 	const email = 'hi@weblu.ch';
@@ -60,7 +61,7 @@
 					>
 				</div>
 				<a
-					href="/pgp-key.asc"
+					href="{base}/pgp-key.asc"
 					download="lukas-weber-pgp-key.asc"
 					title="Download my PGP public key"
 					class="mt-6 inline-flex items-baseline gap-2 font-mono text-xs break-all opacity-40 transition-opacity hover:opacity-80"
